@@ -1,0 +1,57 @@
+# 🚀 Desafio Prático: Engenharia de Requisitos e Análise de API
+
+**Instituição:** SENAC Passo Fundo  
+**Curso:** Técnico em Desenvolvimento de Sistemas (TDS)  
+**Unidade Curricular:** Analisar Orientações Técnicas  
+**Ferramentas:** Navegador, Hoppscotch.io (ou Postman) e Git/GitHub.
+
+---  
+
+## 🏢 O Cenário (Contexto de Mercado)
+
+Vocês foram recém-contratados como Analistas de Sistemas Júnior numa *Software House*. O Tech Lead da vossa equipa informou que o Front-end precisa ser conectado ao novo sistema de gestão de utilizadores. O Back-end já terminou de programar a API e entregou-vos a documentação técnica.
+
+**A regra de ouro:** Antes de escrever uma única linha de código no Front-end, um bom analista deve ler o "contrato" da API, testar as rotas e documentar as regras de negócio encontradas.
+
+---
+
+## 🎯 A Vossa Missão
+
+Vocês devem aceder ao repositório de testes oficial da nossa API em **[https://reqres.in/](https://reqres.in/)**. A vossa missão é ler a documentação fornecida na página inicial, testar os endpoints utilizando o **Hoppscotch** (ou Postman) e criar um documento de mapeamento técnico.
+
+### 📋 Passo a Passo da Atividade:
+
+**1. Pesquisa e Leitura (Análise de Orientação Técnica):**
+* Aceda ao site [ReqRes.in](https://reqres.in/).
+* Analise a tabela principal da página que contém os *Endpoints* e os métodos disponíveis.
+* Descubra qual é a *Base URL* que deverá ser colocada antes de cada caminho.
+
+**2. Teste de Homologação (Mão na Massa):**
+Utilizando uma ferramenta de teste de APIs (Hoppscotch.io ou Postman), execute e valide os **3 cenários** abaixo:
+* **Cenário A:** Buscar a lista de utilizadores da página 2.
+* **Cenário B:** Criar um novo utilizador com o vosso próprio nome e uma profissão (cargo).
+* **Cenário C:** Tentar procurar um utilizador que não existe (ex: utilizador com ID 23) e capturar o erro devolvido pela API.
+
+**3. Produção do Entregável:**
+Vocês devem documentar o que descobriram. Crie um ficheiro chamado `ANALISE_REQRES_SeuNome.md` (substitua pelo seu nome) e documente os 3 cenários testados seguindo estritamente o modelo de mercado abaixo.
+
+---
+
+### 📝 Modelo do Documento Markdown (Copie e preencha para os 3 cenários):
+
+```text
+# 📡 Documentação de Análise da API - ReqRes
+
+## 1. Cenário A: Listar Utilizadores da Página 2
+* **Verbo HTTP:** [Ex: GET, POST, PUT, DELETE]
+* **URL Completa:** [Cole a URL testada aqui]
+* **Body da Requisição:** [Teve que enviar algum JSON? Se não, escreva "Nenhum"]
+* **Status Code Esperado:** [Ex: 200 OK, 201 Created, 404 Not Found]
+* **Resposta da API (Exemplo do JSON):**
+(Cole aqui um trecho do JSON que o Postman/Hoppscotch devolveu)
+
+## 2. Cenário B: Criar Novo Utilizador
+(Preencha com a mesma estrutura acima)
+
+## 3. Cenário C: Utilizador Inexistente
+(Preencha com a mesma estrutura acima)
